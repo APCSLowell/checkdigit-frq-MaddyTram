@@ -11,7 +11,7 @@ public class CheckDigit
      int multiply = 7;
      int sum = 0;
      for(int i = 0; i < getNumberOfDigits(num); i++) {
-       sum += multiply * getDigit(num, i);
+       sum += (multiply * getDigit(num, i));
        multiply--;
      }
      return sum % 10;
