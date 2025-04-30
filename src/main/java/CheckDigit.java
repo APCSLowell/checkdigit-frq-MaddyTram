@@ -10,7 +10,7 @@ public class CheckDigit
      /* to be implemented in part (a) */
      int multiply = 7;
      int sum = 0;
-     for(int i = 0; i < getNumberOfDigits(num); i++) {
+     for(int i = 1; i <= getNumberOfDigits(num); i++) {
        sum += (multiply * getDigit(num, i));
        multiply--;
      }
