@@ -7,7 +7,7 @@ public class CheckDigit
    */  
    public static int getCheck(int num) 
    {  
-     /* to be implemented in part (a) */\
+     /* to be implemented in part (a) */
      int multiply = 7;
      int sum = 0;
      for(int i = 0; i < getNumberOfDigits(num); i++) {
